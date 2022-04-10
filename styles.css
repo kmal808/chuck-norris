@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: auto;
+}
+
+div {
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+button {
+  border: 2px solid black;
+  font-size: 3rem;
+}
+
+img {
+  margin-left: 375px;
+}
+
