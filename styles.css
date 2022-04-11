@@ -1,25 +1,36 @@
 body {
   box-sizing: border-box;
   font-size: 62.5%;
-  margin: auto;
+  margin: none;
 }
 
 div {
   align-items: center;
   text-align: center;
   display: grid;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.PHggDtLjopK_duecwkrH7gHaEK%26pid%3DApi&f=1");
+  background-repeat: no-repeat;     
+  background-size: cover;         
 }
 h1 {
   font-size: 4rem;
+  color: white;
 }
 
 h2 {
   font-size: 3rem;
+  color: white;
 }
 
 button {
   border: 2px solid black;
   font-size: 3rem;
+}
+
+button:hover {
+  background-color: lightgray;
+  cursor: pointer;
 }
 
 img {
