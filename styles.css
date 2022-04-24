@@ -1,21 +1,31 @@
 body {
   box-sizing: border-box;
   font-size: 62.5%;
-  margin: none;
+  margin: 0, 0;
 }
 
 div {
+  width: auto;
+  height: auto;
   align-items: center;
   text-align: center;
   display: grid;
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  background-image: linear-gradient(rgba(137, 137, 233, 0.5), rgba(240, 240, 173, 0.5)),
                   url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.PHggDtLjopK_duecwkrH7gHaEK%26pid%3DApi&f=1");
   background-repeat: no-repeat;     
-  background-size: cover;         
+  background-size: cover; 
+  margin: 0, 0;      
 }
 h1 {
   font-size: 4rem;
   color: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 .5rem 0 .5rem;
+  background-color: rgb(92, 86, 86);
 }
 
 h2 {
@@ -25,15 +35,30 @@ h2 {
 
 button {
   border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   font-size: 3rem;
+  max-width: 40%;
+  font-family: 'Times New Roman', Times, serif;
+  padding: .5rem;
+  border-radius: 10px;
+  background-color: rgb(92, 86, 86);
+  color: whitesmoke;
+  box-shadow: 5px;
 }
 
 button:hover {
   background-color: lightgray;
   cursor: pointer;
+  color: rgb(92, 86, 86);
 }
 
-img {
-  margin-left: 375px;
+
+.chuck {
+  display: block ;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
 }
 
